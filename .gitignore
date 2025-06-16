@@ -1,0 +1,19 @@
+# Ignorar arquivos e pastas desnecessários para o repositório
+# Arquivos do VS Code
+.vscode/
+
+# Arquivos do sistema (evita sujeira no repositório)
+.DS_Store       # macOS
+Thumbs.db       # Windows
+
+# Arquivos temporários de edição
+*.log
+*.tmp
+*.swp
+*~
+
+# Node.js (caso use futuramente)
+node_modules/
+
+# Arquivos ocultos ou locais
+.env
